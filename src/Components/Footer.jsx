@@ -7,11 +7,11 @@ const Footer = () => {
       className="bg-gray-100 border-t border-gray-200"
       style={{ fontFamily: "Satoshi, sans-serif" }}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-9">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16">
           {/* Left Section */}
-          <div className="flex flex-col space-y-6 px-40">
-            <h2 className="text-2xl sm:text-3xl   font-extrabold text-gray-900">SHOP.CO</h2>
+          <div className="flex flex-col space-y-6">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-gray-900">SHOP.CO</h2>
             <p className="text-gray-600 leading-relaxed max-w-md">
               We have clothes that suit your style and which you're proud to wear. From women to men.
             </p>
@@ -34,7 +34,7 @@ const Footer = () => {
           </div>
 
           {/* Right Section */}
-          <div className="flex md:justify-end px-30">
+          <div className="flex md:justify-end">
             <div className="flex flex-col space-y-4">
               <h4 className="font-bold text-gray-900 text-lg tracking-wide">HELP</h4>
               <ul className="space-y-3 text-gray-600">
