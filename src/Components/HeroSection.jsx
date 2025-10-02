@@ -33,8 +33,8 @@ const HeroSection = () => {
             </p>
 
             {/* Button */}
-            <div className="mt-8 flex justify-center lg:justify-start">
-              <button className="bg-black text-white px-8 py-3 rounded-full font-medium text-base hover:bg-gray-800 transition-colors">
+            <div className="mt-8">
+              <button className="bg-black text-white  ml-5 px-8 py-3 rounded-full font-medium text-base hover:bg-gray-800 transition-colors">
                 Shop Now
               </button>
             </div>
